@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace DevIO.Api.Controllers
 {
     [Route("api/fornecedores")]
-    public abstract class FornecedoresController : MainController
+    public class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
         private readonly IFornecedorService _fornecedorService;
